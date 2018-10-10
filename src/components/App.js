@@ -62,9 +62,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App-page">
+        <div className="App-header" />
         <div className="App-name">
           <span>Jobbot.me</span> Blog
         </div>
+
         <Posts
           posts={this.state.posts}
           comments={this.state.comments}
@@ -72,7 +74,9 @@ class App extends React.Component {
           handleRevealAllComments={this.handleRevealAllComments.bind(this)}
           handleDeleteComment={this.handleDeleteComment.bind(this)}
         />
+
         <NewPost onSubmit={this.handleNewPostSubmission.bind(this)} />
+        <div className="App-footer" />
       </div>
     );
   }

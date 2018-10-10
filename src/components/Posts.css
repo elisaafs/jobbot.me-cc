@@ -1,9 +1,24 @@
 .Posts-title {
   color: #bd986b;
   text-align: center;
+  font-size: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .Posts-text {
   color: #202020;
   text-align: center;
+  font-size: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 1.5;
+}
+
+ul {
+  padding: 0;
 }

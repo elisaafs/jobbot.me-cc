@@ -30,7 +30,7 @@ export default class NewPost extends React.Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
+        <form className="NewPost-form" onSubmit={this.handleSubmit}>
           <input
             className="NewPost-title"
             type="text"

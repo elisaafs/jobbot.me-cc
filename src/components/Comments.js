@@ -10,7 +10,7 @@ export default class Comments extends React.Component {
     return (
       <ul>
         {shownComments.map((comment, index) => (
-          <div key={index}>
+          <div className="Comments-box" key={index}>
             <div className="Comments-text">{comment.text}</div>
             <button
               className="Comments-delete-button"
@@ -21,13 +21,15 @@ export default class Comments extends React.Component {
           </div>
         ))}
         {!this.props.allCommentsRevealed & (this.props.comments.length > 3) ? (
-          <button
-            key="button"
-            className="Posts-more-comments"
-            onClick={this.props.handleRevealAllComments}
-          >
-            Load More Comments
-          </button>
+          <div className="Comments-central">
+            <button
+              key="button"
+              className="Comments-more-comments"
+              onClick={this.props.handleRevealAllComments}
+            >
+              Load More Comments
+            </button>
+          </div>
         ) : null}
       </ul>
     );

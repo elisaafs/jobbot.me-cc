@@ -1,0 +1,32 @@
+.NewPost-title {
+  width: 600px;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.NewPost-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.NewPost-text {
+  width: 600px;
+  height: 300px;
+  font-size: 15px;
+}
+
+.NewPost-button {
+  width: 100px;
+  height: 40px;
+  background-color: #bd986b;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
