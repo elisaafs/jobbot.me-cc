@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  background-color: white;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.App-name {
+  font-family: "Yantramanav", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 100px;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  color: #484848;
+}
+
+span {
+  font-weight: 700;
+}
