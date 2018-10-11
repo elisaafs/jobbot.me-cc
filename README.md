@@ -1,4 +1,4 @@
-# Coding Challenge jobbot.me
+# Simple Blog
 
 ## Frontend
 
